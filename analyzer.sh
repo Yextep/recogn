@@ -10,6 +10,5 @@ mkdir $sitio
 
 # Realizar reconocimiento con herramientas de pentesting
 nmap -A -sS -sV -T4 $sitio > $sitio/nmap.txt
-nikto -h $sitio > $sitio/nikto.txt
 
 echo "Reconocimiento finalizado."
